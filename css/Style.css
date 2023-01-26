@@ -13,8 +13,20 @@
     justify-content: space-between;
 }
 
+.acenter{
+    align-items: center;
+}
+
 .mauto{
     margin: auto;
+}
+
+.alend{
+    align-items: end;
+}
+
+.fcolumn{
+    flex-direction: column;
 }
 
 .justify_center{
@@ -39,7 +51,6 @@ ul{
 
 .container{
     max-width: 1200px;
-
 }
 
 header .container{
@@ -61,6 +72,7 @@ header nav li:first-of-type{
 
 header nav li a{
     font: 15px/20px 'Poppins', sans-serif;
+    font-weight: 400;
     font-style: normal;
     color: #FFFFFF;
     text-decoration: none;
@@ -79,4 +91,89 @@ header nav li:last-of-type a{
     background-image: url("../images/IMAGE.jpg");
     background-size: cover;
     height: calc(100vh - 83px);
+}
+
+.main_blok{
+    align-self: flex-end;
+}
+
+.firstblok{
+    max-width: 580px;
+    padding-bottom: 71px;
+
+}
+
+.main_haedin{
+    font:14px/20px 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+
+.main_title{
+    font:54px/59px 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+}
+
+.main_text{
+    font:14px/20px 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #C0C0C0;
+}
+
+.helpblok{
+    background: #000000;
+    padding: 111px;
+}
+
+.helpinfo{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.helpinfo_subtitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 22px;
+}
+
+.help_link{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 11px 10px 11px 4px;
+    text-decoration: none;
+}
+
+.help_link::before{
+    content: '';
+    background: black;
+    padding: 5px 16px;
+    margin-right: 6px;
+    border-radius: 15px;
+
 }
