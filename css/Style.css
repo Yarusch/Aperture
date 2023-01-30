@@ -37,6 +37,9 @@
     text-align: center;
 }
 
+.justify_right{
+
+}
 /* styles */
 
 header{
@@ -91,16 +94,60 @@ header nav li:last-of-type a{
     background-image: url("../images/IMAGE.jpg");
     background-size: cover;
     height: calc(100vh - 83px);
+    position: relative;
+}
+
+.bottom_icon{
+    position: absolute;
+    right: 40px;
+    bottom: 41px;
+    display: flex;
+    align-items: center;
+}
+
+.bottom_icon li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+
+.bottom_icon li:before{
+    content: "";
+    display: inline-block;
+    background-image: url(../images/image1.svg);
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 5px;
+}
+
+.bottom_icon li:nth-child(2):before{
+    background-image: url(../images/image3.svg);
+}
+
+.bottom_icon li:nth-child(3):before{
+    width: 32px;
+    background-image: url(../images/image2.svg);
+}
+
+.bottom_icon li:nth-child(4):before{
+    width: 10px;
+    height: 16px;
+    background-image: url(../images/image4.svg);
 }
 
 .main_blok{
     align-self: flex-end;
+    margin-bottom: 70px;
 }
 
 .firstblok{
     max-width: 580px;
-    padding-bottom: 71px;
-
 }
 
 .main_haedin{
@@ -126,6 +173,91 @@ header nav li:last-of-type a{
     font-weight: 400;
     color: #C0C0C0;
 }
+
+.first_list{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-top: 11px;
+    margin-bottom: 40px;
+}
+
+.first_list_images{
+    margin-right: 6px;
+}
+
+.pl16{
+    padding-left: 16px;
+}
+
+/* 3 - Japan; 5 - Costa Rica; 7 - Nepal; */
+
+.Japan{
+    background-image: url("../images/Japan.jpg");
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    background-size: 100% 100%;
+}
+.Japan div{
+    max-width: 298px;
+    margin-right: 62px;
+}
+
+.Costa_Rica{
+    background-image: url("../images/Costa_Rica.jpg");
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    background-size: 100% 100%;
+}
+.Costa_Rica div{
+    max-width: 273px;
+    margin-right: 87px;
+}
+
+.Nepal{
+    background-image: url("../images/Nepal.jpg");
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    background-size: 100% 100%;
+}
+.Nepal div{
+    max-width: 254px;
+    margin-right: 106px;
+}
+
+.title357{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.text357{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+/*Help section*/
 
 .helpblok{
     background: #000000;
@@ -175,5 +307,4 @@ header nav li:last-of-type a{
     padding: 5px 16px;
     margin-right: 6px;
     border-radius: 15px;
-
 }
