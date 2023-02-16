@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1000px){
+  .clients_images{
+      justify-content: flex-start;
+      flex-direction: column;
+  }
+    .clients_images a{
+        margin-bottom: 40px;
+    }
+    .clients_images a:last-of-type{
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 1366px){
+    .image_container{
+        justify-content: space-around;
+    }
+    .What_container{
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width: 870px){
+    header nav ul li{
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 784px){
+    header nav ul li{
+        margin-left: 10px;
+        font: 7px/12px 'Poppins', sans-serif;
+    }
+}

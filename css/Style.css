@@ -209,6 +209,7 @@ header nav li:last-of-type a{
 .image_container{
     padding-top: 42px;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
 
 }
@@ -365,6 +366,12 @@ header nav li:last-of-type a{
 
 .text_content{
     margin-bottom: 80px;
+}
+
+.clients_images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Help section */
