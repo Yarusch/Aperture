@@ -193,6 +193,40 @@ header nav li:last-of-type a{
     padding-left: 16px;
 }
 
+.info_blok{
+    background: #000;
+}
+
+.content{
+    padding: 106px;
+    max-width: 1168px;
+}
+
+.image_container{
+    padding-top: 42px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.What_container{
+    position: relative;
+}
+
+.top{
+    margin-bottom: 16px;
+    display: block;
+}
+
+.desc{
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    z-index: 1;
+    max-width: 516px;
+
+}
+
 /* 3 - Japan; 5 - Costa Rica; 7 - Nepal; */
 
 .Japan{
@@ -204,7 +238,7 @@ header nav li:last-of-type a{
     position: relative;
     background-size: 100% 100%;
 }
-.Japan div{
+.Blok_Japan{
     max-width: 298px;
     margin-right: 62px;
 }
@@ -218,7 +252,7 @@ header nav li:last-of-type a{
     position: relative;
     background-size: 100% 100%;
 }
-.Costa_Rica div{
+.Blok_Costa_Rica{
     max-width: 273px;
     margin-right: 87px;
 }
@@ -232,7 +266,7 @@ header nav li:last-of-type a{
     position: relative;
     background-size: 100% 100%;
 }
-.Nepal div{
+.Blok_Nepal{
     max-width: 254px;
     margin-right: 106px;
 }
@@ -246,6 +280,7 @@ header nav li:last-of-type a{
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: 15px;
 }
 
 .text357{
@@ -255,16 +290,17 @@ header nav li:last-of-type a{
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
+    margin-bottom: 30px;
 }
 
-/*Help section*/
+/* Help section */
 
 .helpblok{
     background: #000000;
     padding: 111px;
 }
 
-.helpinfo{
+.caption{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -275,7 +311,7 @@ header nav li:last-of-type a{
     margin-bottom: 15px;
 }
 
-.helpinfo_subtitle{
+.caption_subtitle{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -286,7 +322,7 @@ header nav li:last-of-type a{
     margin-bottom: 22px;
 }
 
-.help_link{
+.link{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -301,7 +337,7 @@ header nav li:last-of-type a{
     text-decoration: none;
 }
 
-.help_link::before{
+.link::before{
     content: '';
     background: black;
     padding: 5px 16px;
