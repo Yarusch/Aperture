@@ -1,33 +1,321 @@
-@media only screen and (max-width: 1000px){
-  .clients_images{
-      justify-content: flex-start;
-      flex-direction: column;
-  }
-    .clients_images a{
-        margin-bottom: 40px;
-    }
-    .clients_images a:last-of-type{
-        margin-bottom: 0;
-    }
-}
-
-@media only screen and (max-width: 1366px){
+@media only screen and (max-width: 1280px){
     .image_container{
         justify-content: space-around;
     }
     .What_container{
         margin-top: 30px;
     }
+    .top{
+        margin-bottom: 0;
+    }
 }
-@media only screen and (max-width: 870px){
-    header nav ul li{
+@media only screen and (max-width: 884px){
+    .clients_images{
+        flex-direction: column;
+    }
+    .clients_images a{
+        margin-top: 30px;
+    }
+    .clients_images a:first-of-type{
+        margin-top: 0;
+    }
+    .Sweden_text_blok{
+        max-width: 45%;
+    }
+    header nav li {
         margin-left: 15px;
     }
 }
+@media only screen and (max-width: 768px){
+    header nav li a {
+        font: 12px/17px 'Poppins', sans-serif;
+    }
+}
+@media only screen and (max-width: 429px){
+    .Logo{
+        width: 80px;
+    }
+    header nav li a {
+        font: 7px/14px 'Poppins', sans-serif;
+    }
+    header nav li{
+        margin-left: 4px;
+        padding-bottom: 7px;
+    }
+    header nav li:first-of-type {
+        margin-right: 3px   ;
+    }
+    header nav li:first-of-type a{
+        font: 9px/7px 'Poppins', sans-serif;
+    }
+    header nav li:last-of-type a{
+        padding: 5px 9px;
+    }
+    .container{
+        max-width: 429px;
+    }
+    .What_container{
+        max-width: 429px;
+    }
+    .bottom_icon li{
+        font-size: 8px;
+        line-height: 8px;
+    }
+    .bottom_icon li:before{
+        margin-right: 3px;
+    }
+    .caption {
+        font-size: 25px;
+        line-height: 22px;
+    }
+    .caption_subtitle {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    footer .footer_list ul:first-of-type {
+        margin-right: 20px;
+    }
+    footer .footer_list ul:last-of-type {
+        margin-right: 15px;
+    }
+    footer .footer_list li:first-of-type{
+        font-size: 14px;
+    }
+    .info_blok .image_container article img{
+        max-width: 420px;
+    }
+    .info_blok .image_container article .last_desc{
+        bottom: -10px;
+    }
+    footer form{
+        width: 60% ;
+    }
+    .Japan{
+        min-height: 400px;
+    }
+    .Costa_Rica{
+        min-height: 400px;
+    }
+    .Nepal{
+        min-height: 400px;
+    }
+    footer .left_logo{
+        max-width: 180px;
+    }
+    footer .footer_list li a{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 414px){
+    .helpblok {
+        background: #000000;
+        padding: 100px;
+    }
+    footer .footer_list ul:last-of-type {
+        margin-right: 0;
+    }
+    header .container {
+        padding: 0 10px 0 20px;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 391px){
+    header .container {
+        padding: 0 10px 0 15px;
+    }
+    .Sweden_haedin {
+        font-size: 12px;
+    }
+    .Sweden_title {
+        font-size: 24px;
+    }
+    .Sweden_text{
+    font-size: 12px
+    }
+    footer .footer_list li:first-of-type{
+        font-size: 12px;
+    }
+    footer .footer_list li a{
+        font-size: 10px;
+    }
+    footer .footer_list ul:first-of-type {
+        margin-right: 10px;
+    }
+    footer .footer_list ul:last-of-type {
+        margin-right: 10px;
+    }
+    footer .left_logo{
+        max-width: 180px;
+    }
+}
+@media only screen and (max-width: 376px){
+    .info_blok .image_container article img{
+        max-width: 375px;
+    }
+    .title357{
+        font-size: 11px;
+    }
+    .text357{
+        font-size: 11px;
+    }
+    .desc{
+        left: 10px;
+    }
+    .last_desc{
+        left: 10px;
+    }
+    .helpblok{
+        padding: 80px;
+    }
+    header .container {
+        padding: 0 5px 0 10px;
+    }
+    .clients {
+         padding: 120px 100px 100px 100px;
+     }
 
-@media only screen and (max-width: 784px){
-    header nav ul li{
-        margin-left: 10px;
-        font: 7px/12px 'Poppins', sans-serif;
+}
+@media only screen and (max-width: 360px){
+    footer .footer_list li:first-of-type {
+        font-size: 8px;
+    }
+    footer .footer_list li a {
+        font-size: 9px;
+    }
+    footer .footer_list ul:last-of-type {
+        margin-right: 0;
+    }
+    header nav li:first-of-type a {
+         font: 7px/5px 'Poppins', sans-serif;
+    }
+    header nav li a {
+        font: 6px/3px 'Poppins', sans-serif;
+    }
+    header nav li {
+        margin-left: 4px;
+        margin-right: 4px;
+        padding-bottom: 7px;
+    }
+    .main_haedin {
+        font: 12px/20px 'Poppins', sans-serif;
+    }
+    .main_title {
+        font: 34px/47px 'Poppins', sans-serif;
+    }
+    .main_text {
+        font: 12px/20px 'Poppins', sans-serif;
+    }
+    .content {
+        padding: 95px;
+    }
+    .info_blok .image_container article img {
+        max-width: 350px;
+    }
+    .Sweden_haedin {
+        font-size: 10px;
+    }
+    .Sweden_title {
+        font-size: 21px;
+    }
+    .Sweden_text {
+        font-size: 9px;
+    }
+    .link {
+        padding: 8px 10px 8px 3px;
+        font-size: 12px;
+    }
+    .link:before{
+        padding: 2px 10px;
+        border-radius: 9px;
+    }
+}
+@media only screen and (max-width: 320px){
+    header nav li:first-of-type a {
+        font: 7px/5px 'Poppins', sans-serif;
+    }
+    header nav li a {
+        font: 5px/3px 'Poppins', sans-serif;
+    }
+    header nav li {
+        margin-left: 2px;
+        margin-right: 2px;
+        padding-bottom: 4px;
+    }
+    .main_blok{
+        max-width: 280px;
+    }
+    .main_haedin {
+        font: 9px/20px 'Poppins', sans-serif;
+    }
+    .main_title {
+        font: 26px/32px 'Poppins', sans-serif;
+    }
+    .main_text {
+        font: 8px/16px 'Poppins', sans-serif;
+    }
+    .content {
+        padding: 76px;
+    }
+    .info_blok .image_container article img {
+        max-width: 300px;
+    }
+    .title357 {
+        font-size: 9px;
+        margin-bottom: 0;
+    }
+    .text357 {
+        font-size: 9px;
+        margin-bottom: 18px;
+    }
+    .Japan {
+        min-height: 310px;
+    }
+    .Nepal {
+        min-height: 310px;
+    }
+    .Costa_Rica {
+        min-height: 310px;
+    }
+    .Sweden_haedin {
+        font-size: 7px;
+        line-height: 10px;
+    }
+    .Sweden_title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .Sweden_text {
+        font-size: 7px;
+        line-height: 15px;
+    }
+    .Sweden{
+        min-height: 400px;
+    }
+    .Sweden .container{
+        min-height: 400px;
+    }
+    .clients {
+        padding: 90px 80px 70px 80px;
+    }
+    .helpblok {
+        padding: 40px;
+    }
+    .caption {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 13px;
+    }
+    .caption_subtitle {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 16px;
+    }
+    footer .footer_list li:first-of-type{
+        font-size: 6px;
+        line-height: 12px;
+    }
+    footer .footer_list li a{
+        font-size: 7px;
+        line-height: 12px;
     }
 }
